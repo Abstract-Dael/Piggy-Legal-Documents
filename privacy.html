@@ -50,7 +50,7 @@
   <main class="wrap">
     <h1>Privacy Policy for Piggy — Earn Screen Time</h1>
     <p><strong>Effective date:</strong> June 2026
-    <strong>Last updated:</strong> June 2026</p>
+    <strong>Last updated:</strong> July 2026</p>
     <p>This Privacy Policy explains how AIRA PRODUCTS LLC ("we," "us," or "our") collects, uses, and protects information in connection with the <strong>Piggy — Earn Screen Time</strong> mobile application (the "App"). Piggy is a family tool that lets children earn screen-time credits by completing chores that a parent or guardian reviews and approves.</p>
     <p>By using the App, you agree to the practices described in this policy. If you do not agree, please do not use the App.</p>
     <hr />
@@ -64,12 +64,13 @@
     <p><strong>Family and chore activity.</strong> Information you create while using the App, such as family membership, chores and their settings, completion records, denial reasons, and screen-time credit balances and transactions.</p>
     <p><strong>Chore verification photos.</strong> When a Child marks a chore complete, the App captures a photo as proof and uploads it to private storage so the Parent can review it. <strong>These photos are deleted automatically once the Parent approves or denies the submission.</strong> We do not retain chore photos after review.</p>
     <p><strong>Push notification tokens.</strong> If you enable notifications, we store the device token issued by Apple Push Notification service so we can send alerts (for example, when a chore is submitted or approved).</p>
+    <p><strong>Product analytics events.</strong> We collect a limited set of in-app usage events — for example, which onboarding screens are viewed or when a subscription screen is shown — so we can understand how the App is used and improve it. These events are associated with a random, app-generated identifier, <strong>not</strong> with your name, email address, or account. We do not use screen recording or session replay, and analytics events never include chore photos, chore contents, or Screen Time data.</p>
     <p><strong>Technical information.</strong> Basic information necessary to operate the service, such as the device identifier associated with your push token and timestamps of activity.</p>
     <h2>3. Information we do NOT collect</h2>
     <ul>
     <li><strong>Screen Time / Family Controls data stays on the device.</strong> Piggy uses Apple's Family Controls, Device Activity, and Managed Settings frameworks to set and enforce app limits. The information about which apps are installed or used, and the limits applied, is handled on-device by Apple's system and <strong>is never transmitted to us or stored on our servers.</strong></li>
-    <li>We do <strong>not</strong> use third-party advertising or analytics services.</li>
-    <li>We do <strong>not</strong> track you across other companies' apps or websites.</li>
+    <li>We do <strong>not</strong> use third-party advertising services, and we do <strong>not</strong> show ads.</li>
+    <li>We do <strong>not</strong> track you across other companies' apps or websites, and we do <strong>not</strong> use analytics for advertising purposes.</li>
     <li>We do <strong>not</strong> sell or rent personal information to anyone.</li>
     </ul>
     <h2>4. How we use information</h2>
@@ -77,21 +78,28 @@
     - Create and maintain accounts and family connections;
     - Operate the earn-and-spend loop (submit chores, let Parents review them, award and redeem credits);
     - Send notifications you have enabled;
+    - Understand how the App is used so we can improve it;
     - Keep the service secure and prevent abuse;
     - Comply with legal obligations.</p>
     <h2>5. How information is stored and shared</h2>
-    <p>We use <strong>Supabase</strong> as our backend and hosting provider to store account, family, and activity data and to process chore photos for review. Supabase processes this data on our behalf as a service provider.</p>
-    <p>Push notifications are delivered through <strong>Apple Push Notification service</strong>. If you purchase a subscription in the future, payments are processed by <strong>Apple</strong>, and we do not receive or store your payment card details.</p>
-    <p>We may disclose information if required by law, to enforce our Terms, or to protect the rights, safety, and security of our users or the public.</p>
+    <p>We share information only with the service providers that operate the App on our behalf:</p>
+    <ul>
+    <li><strong>Supabase</strong> — our backend and hosting provider, which stores account, family, and activity data and processes chore photos for review.</li>
+    <li><strong>PostHog</strong> — a product analytics service that processes the anonymous usage events described in Section 2. This data is processed in the United States and is not linked to your name, email address, or account.</li>
+    <li><strong>Superwall</strong> — a service we use to present subscription offers in the App.</li>
+    <li><strong>Apple</strong> — push notifications are delivered through Apple Push Notification service, and subscription purchases are processed by Apple. We never receive or store your payment card details.</li>
+    </ul>
+    <p>Each provider processes data on our behalf and is not permitted to use it for its own purposes. We may also disclose information if required by law, to enforce our Terms, or to protect the rights, safety, and security of our users or the public.</p>
     <h2>6. Children's privacy</h2>
     <p>Piggy is intended to be configured and supervised by a Parent. We collect a limited amount of information about Children — a display name, an avatar, chore activity, and chore-verification photos that are deleted after review — solely to provide the App's core feature. A Parent provides consent for this collection when they create the family and connect a Child's device.</p>
+    <p>Analytics events from a Child's device are limited to the anonymous usage events described in Section 2, are used only for internal operations such as improving the App, and are never used for advertising or profiling.</p>
     <p>We do not knowingly collect more personal information from Children than is necessary to operate the App, and we do not use Children's information for advertising or sell it. A Parent may review, request deletion of, or stop the collection of their Child's information at any time by contacting us or by deleting the account (see Section 8).</p>
     <p>If you believe a Child has provided us information without appropriate parental involvement, please contact us at team@pathapp.net and we will delete it.</p>
     <h2>7. Data retention</h2>
     <p>We keep account and family data for as long as the account is active. Chore-verification photos are deleted automatically upon approval or denial. When an account is deleted, we delete or anonymize the associated personal information within a reasonable period, except where we must retain it to comply with legal obligations.</p>
     <h2>8. Your choices and rights</h2>
     <ul>
-    <li><strong>Access and deletion.</strong> You can delete your account, your family, and all associated data — including every connected Child's account, chores, credits, and photos — at any time from within the App under <strong>Settings → Delete Account</strong>. You may also request a copy or deletion of your information by contacting us at team@pathapp.net.</li>
+    <li><strong>Access and deletion.</strong> You can delete your account, your family, and all associated data — including every connected Child's account, chores, credits, and photos — at any time from within the App under <strong>Settings → Delete Account</strong>. You may also request a copy or deletion of your information, including analytics data, by contacting us at team@pathapp.net.</li>
     <li><strong>Notifications.</strong> You can disable push notifications in your device settings at any time.</li>
     <li><strong>Camera.</strong> Chore photos require camera access, which you can manage in your device settings. Declining it will limit the chore-submission feature.</li>
     </ul>
@@ -104,8 +112,6 @@
     <p>If you have questions about this policy or your information, contact:</p>
     <p><strong>AIRA PRODUCTS LLC</strong>
     team@pathapp.net</p>
-    <hr />
-    <p><em>This document is a template prepared to describe the App's data practices and is not legal advice. Because Piggy handles information relating to children, you should have it reviewed by a qualified attorney for compliance with COPPA, GDPR-K, the CCPA, and any other laws that apply to your users before publishing.</em></p>
   </main>
 </body>
 </html>
